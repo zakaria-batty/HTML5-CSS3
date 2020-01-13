@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Royal</title>
+</head>
+
+<body>
+  <!----------------------------------- Début Header ----------------------------------->
+  <header>
+    <div class="container">
+        <div id="logo">
+          <img src="data:image/png;base64,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" alt="Logo Royal" />
+      </div>
+
+      <!-- la balise nav : représente une section d'une page ayant des liens vers d'autres pages -->
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">À propos de nous</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!----------------------------------- Fin Header ----------------------------------->
+
+  <!----------------------------------- Début Bannière ----------------------------------->
+  <div id="banniere_image">
+    <div id="banniere_description">
+      <h2>NOUS SOMMES FOURNIS DES SERVICES DE SÉCURITÉ</h2>
+    </div>
+  </div>
+  <!----------------------------------- Fin Bannière ----------------------------------->
+
+  <!----------------------------------- Début Section ----------------------------------->
+
+  <section>
+    <article>
+      <h1>BIENVENUE SOCIÉTÉ DE SERVICES DE SÉCURITÉ</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi,
+        in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis.
+        Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+      <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat
+        ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor.</p>
+    </article>
+
+    <aside>
+      <h2>BIENVENUE</h2>
+      <p id="photo_welcome"><img src="https://i.servimg.com/u/f21/19/22/29/58/soldat10.jpg" alt="Photo welcome" /></p>
+    </aside>
+
+  </section>
+  <!----------------------------------- Fin Section ----------------------------------->
+
+  <!----------------------------------- Début Footer ----------------------------------->
+  <footer>
+    <div class="footer">
+      <!-- Colonne 1 -->
+      <div id="about_royal">
+        <h3>À PROPOS DE ROYAL :</h3>
+        <p>Il existe de nombreuses variantes de passages de Lorem Ipsum disponibles, mais la majorité a subi une altération sous une forme ou une autre, par humour injecté, ou des mots aléatoires qui ne semblent même pas légèrement crédibles.
+        </p>
+      </div>
+
+      <!-- Colonne 2 -->
+      <div id="adress">
+        <h3>Adresse :</h3>
+        <div class="address_link-container">
+          <a href="">
+            <img src="images/location.png" alt="">
+            <span> Adresse: Qu Mohammadi Rue saouira, youssoufia
+            </span>
+          </a>
+          <a href="">
+            <img src="images/phone.png" alt="">
+            <span> Tel: +212 690 809 787
+            </span>
+          </a>
+          <a href="">
+            <img src="images/mail.png" alt="">
+            <span>
+              Email: demo@gmail.com
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Colonne 3 -->
+      <div id="newsletter">
+        <h3>newsletter</h3>
+        <form action="">
+          <input type="email" placeholder="ENTER YOUR EMAIL">
+          <div>
+            <button type="submit">
+              Souscrire
+            </button>
+          </div>
+        </form>
+        <div class="social_container">
+          <div>
+            <img src="images/fb.png" alt="">
+          </div>
+          <div>
+            <img src="images/twitter.png" alt="">
+          </div>
+          <div>
+            <img src="images/linkedin.png" alt="">
+          </div>
+          <div>
+            <img src="images/youtube.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        droits d'auteu &copy; 2020 Tous droits réservés par zakaria batty</a>
+      </p>
+    </div>
+
+  </footer>
+  <!----------------------------------- Fin Footer ----------------------------------->
+
+  </div>
+</body>
+
+</html>
